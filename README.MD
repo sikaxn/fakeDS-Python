@@ -24,14 +24,18 @@ The origional Driver Station includes a lot of safety feature which could cause 
 
 ## What this script does
 
-This script send raw UDP packet to roboRIO to put it to enabled teleop mode. Potential use of this script would be using wpilib without driver station for full autonomous unattended situation under non FRC event. 
+This script send raw UDP packet to roboRIO to put it to enabled teleop mode. 
+
 
 ## How to use this script
+
 replace``your_roboRIO_IP_address`` at ``ip_address = "your_roboRIO_IP_address"`` to the ip address or mDNS address of your roboRIO and run this script would put robot in teleop.
 
+Before starting this script, you MUST close any Driver Station software connected to the robot, or this script night not work. This script and other DS would not work at the same time.
 
 ## Known issue:
 
  - Script could crash if mDNS address is used. Using IP address would
    fix this.
  - You can't use any joystick or controllers. To control the robot, you would use something like NetworkTable or have it run fully automonously
+ - Sometimes after running this script, roboRIO won't enable and official DS won't even connect. In this case, reboot roboRIO would fix this problem. Make sure you don't have any other DS or this script running while reboot.
