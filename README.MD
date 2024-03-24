@@ -1,7 +1,5 @@
 # Fake Driver Station (robot enabler) Python (2024 DS protocol)
 
-Origional idea: [FakeDS](https://github.com/Team-5176/testbench/blob/master/src/main/java/frc/robot/FakeDS.java)
-
 ## IMPORTANT SAFETY WARNING (Please read though this entire thing)
 
 **THIS SCRIPT COULD CREATE A RUN AWAY ROBOT!!!!! USE AT YOUR OWN RISK!!!**
@@ -39,3 +37,11 @@ Before starting this script, you MUST close any Driver Station software connecte
    fix this.
  - You can't use any joystick or controllers. To control the robot, you would use something like NetworkTable or have it run fully automonously
  - Sometimes after running this script, roboRIO won't enable and official DS won't even connect. In this case, reboot roboRIO would fix this problem. Make sure you don't have any other DS or this script running while reboot.
+
+## Attribution
+
+Some idea and concept of this script was inspired by 
+
+-[Is there a way to create a motor testing board using standard FRC components without using the RoboRIO?](https://www.chiefdelphi.com/t/is-there-a-way-to-create-a-motor-testing-board-using-standard-frc-components-without-using-the-roborio/412788)
+-[FakeDS Java script by SLUH Robotics - FRC 5176](https://github.com/Team-5176/testbench/blob/master/src/main/java/frc/robot/FakeDS.java)
+-[LibDS](https://github.com/FRC-Utilities/LibDS)
