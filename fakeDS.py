@@ -43,6 +43,7 @@ def randomize_case(s):
 randomized_string = randomize_case(base_string)
 print(f"Protocol: DS2024")
 print(f"This script is strictly for experiment and COULD CAUSE A RUN AWAY ROBOT. Using this script at an official event could be illegal.")
+print(f"Please read through README before using this script")
 print(f"")
 print(f"Please enter the following phrase exactly as shown to proceed: {randomized_string}")
 user_input = input()
