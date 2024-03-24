@@ -8,7 +8,7 @@ Origional idea: [FakeDS](https://github.com/Team-5176/testbench/blob/master/src/
 
 **Using this script in an official FRC event could be illegal and is unsafe!!!**
 
-Please make sure you absolutely know what you're doing. Most FRC robot code loaded with competition code are not  suitable for using this script.
+Please make sure you absolutely know what you're doing. Most FRC robot loaded with competition code are not suitable for using this script.
 
 **It is strongly NOT recommanded to run this script direct on the robot** (unless you absolutely know what you're doing) either on roboRIO or on a coprocessor because it's hard to disable the robot (close this script) in such case.
 
