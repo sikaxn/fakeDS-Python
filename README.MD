@@ -42,7 +42,7 @@ Before starting this script, you MUST close any Driver Station software connecte
 
 Some idea and concept of this script was inspired by 
 
--[Is there a way to create a motor testing board using standard FRC components without using the RoboRIO?](https://www.chiefdelphi.com/t/is-there-a-way-to-create-a-motor-testing-board-using-standard-frc-components-without-using-the-roborio/412788)
+-[Enabling autonomous on the roboRIO over SSH (without a driver station connected)](https://www.chiefdelphi.com/t/enabling-autonomous-on-the-roborio-over-ssh-without-a-driver-station-connected/365462)
 
 -[FakeDS Java script by SLUH Robotics - FRC 5176](https://github.com/Team-5176/testbench/blob/master/src/main/java/frc/robot/FakeDS.java)
 
